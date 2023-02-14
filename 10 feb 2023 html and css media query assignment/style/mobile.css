@@ -1,0 +1,52 @@
+@media screen and (max-width:500px) {
+    body {
+        height: 100vh;
+        width: 100%;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav img {
+        display: block;
+        float: left;
+        height: 40px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-top {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-bottom {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-container {
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+
+    .main-top-left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        left: 20px;
+    }
+
+    .main-top-right {
+        position: relative;
+        left: 180px;
+        margin: 10px 0px;
+    }
+}
