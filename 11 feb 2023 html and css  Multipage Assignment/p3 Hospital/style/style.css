@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(233, 236, 239);
+}
+/* navigation  */
+nav {
+    height: 13vh;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    font-weight: 700;
+    cursor: pointer;
+}
+/* main  */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+   
+}
+.topAngle{
+    position: absolute;
+    left: 15.8%;
+    top: 34%;
+}
+.bottomAngle{
+    position: absolute;
+    bottom: 12.4%;
+    left: 56%;
+}
+.mouse{
+    position: absolute;
+    bottom: 5%;
+    left: 60%;
+}
+
+.left-main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stethoscope{
+    height: 400px;
+    position: absolute;
+    top: 26%;
+}
+
+.left-main-section-text {
+    text-align: start;
+    position: absolute;
+    top: 40%;
+    left: 200px;
+}
+.left-main-section-text h1{
+    font-size: 50px;
+    font-weight: bolder;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+.left-main-section-text p{
+    opacity: 0.8;
+}
+.left-main-section-text button{
+    padding: 10px 24px ;
+    background-color: rgb(39, 192, 108);
+    border-radius: 19px;
+    color: white;
+    font-weight: 700;
+    border: none;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.left-main-section-text button:hover{
+    color: rgb(3, 3, 3);
+    background-color: rgb(203, 201, 201);
+    cursor: pointer;
+}
+.greenbox {
+    position: absolute;
+    right:10px;
+    width: 300px;
+    bottom: 50px;
+}
+
+
+
+.yellowbox {
+    position: absolute;
+    bottom: 30px;
+    right:0px;
+    width: 220px;
+}
+
+.doctor {
+    height: 80%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
