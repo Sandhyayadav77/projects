@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236, 238, 240);
+}
+
+.counter-body {
+    text-align: center;
+    width: 29rem;
+    border: 1.5px solid rgb(72, 71, 71);
+    border-radius: 7px;
+    padding: 20px;
+}
+
+
+#count {
+    border: 2px solid rgb(72, 71, 71);
+    padding: 7px 9px ;
+    border-radius: 3px;
+    font-size: 0.9rem;
+    margin: 0px 3px ;
+
+}
+
+.btn {
+    margin: 5px 0px;
+    font-size: 0.9rem;
+    padding: 7px 15px;
+    font-weight: 600;
+}

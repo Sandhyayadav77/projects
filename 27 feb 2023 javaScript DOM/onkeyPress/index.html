@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnkeyPress</title>
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        #result {
+            font-size: 30px;
+            font-weight: 600;
+            color: red;
+        }
+    </style>
+
+</head>
+<h1>Enter the Key on the keyboard :</h1>
+<p id="result">
+    Text:
+</p>
+
+<body>
+    <script>
+        let result = document.getElementById("result");
+        document.addEventListener("keypress", () => {
+            result.textContent = result.textContent + event.key;
+
+        })
+    </script>
+</body>
+
+</html>
